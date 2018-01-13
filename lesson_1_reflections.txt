@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Porque el comando resalta solo las lineas que tuvieron algun cambio y como estaban antes. 
+    El error tiene que estar en alguna de esas lineas.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Porque puedo ver todos los cambios que hice a una parte del codigo y ver si hubo algun cambio que genero algun problema.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Lo positivo es que uno puede englobar los cambios que esten relacionados para resolver un problema especifico o agregar cierta funcionalidad.
+    Lo negativo es que uno puedo perder cierta historia de cambios en el dia si la funcionalidad a agregar lleva varios dias.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Porque estan pensados para el desarrollo de software, donde un cambio involucra a mas de un archivo del proyecto.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Uso git log para ver la lista de todos los cambios hechos y luego git diff para ver especificamente que cambios se hicieron en cada commit.
+    Uso git log --stat para ver un resumen de que archivos se cambios en cada commit, eso me sirve para ver que archivos subir al server luego de implementar algun cambio.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Porque al poder volver a estados anteriores del software y encontrar rapidamente si se introdujo un error, puedo solucionarlo rapidamente.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Quiero usar git en mis proyectos y en particular para manejar el cambio de version de php7
