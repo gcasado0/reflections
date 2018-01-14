@@ -13,13 +13,25 @@ Permite definir el grupo de archivos que se van a comitear dejando el resto para
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Puedo ver los archivos antes de hacer el commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Ahora tengo la necesidad de ver si puedo hacer funcionar el sistema en una version avanzada de php, 
+con lo cual necesito hacer pruebas y a lo mejor volver atras todos los cambios.
+
 How do the diagrams help you visualize the branch structure?
+
+Sirven para ver los hilos de cambios entre las distintas ramas
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+El resultado de hacer un merge es unir 2 branches en uno solo, que contenga los cambios hechos en ambos.
+En el diagrama se representa como un solo commit pero con 2 padres.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Hacer el merge automatico ahorra mucho tiempo y es menos propenso a cometer errores.
