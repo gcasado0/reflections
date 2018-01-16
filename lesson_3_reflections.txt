@@ -6,24 +6,29 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+   Porque si estoy trabajando un algun cambio no quiero que me modifiquen los archivos todo el tiempo, con cambios de otras personas. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+   El branch solo existe dentro de un repositorio, y sirve para tener una version distinta el master. Hacer un prueba, solucionar un problema o agregar una nueva funcion.
+   El clonar sirve para bajar a la pc un repositorio de un sitio como github o bitbucket. Tambien se puede clonar un repositorio local, para empezar a lo mejor un nuevo sistema con la base de otro.
+   El fork es para clonar un proyecto en github y empezar a modificarlo uno mismo sin afectar el original.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Te permite hacer cambios y trabajar sin conexion, y luego sincronizar tus cambios con el resto del equipo.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Seria muy complicado, pero habria que comparar los archivos para ver cuales se modificaron o bien anotar que archivos se modificaron a mano.
+    Luego ver de generar una version final y empezar de nuevo.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    En el caso que uno quiera agregar alguna funcionalidad nueva que pueda afectar el funcionamiento del sistema, o bien probar algo y luego descartarlo.
+    
